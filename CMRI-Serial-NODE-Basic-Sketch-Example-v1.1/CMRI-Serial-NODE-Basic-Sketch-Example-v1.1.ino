@@ -27,7 +27,7 @@ String  CMRINodeVersion="V1.1";
 
 // Basic import of Header Files
 #include <CMRI.h>
-#include <WiFi.h>
+//#include <WiFi.h>
 #include <Wire.h>
 
 //HeartBeat Settings
