@@ -48,6 +48,8 @@ void setup() {
   delay(1000);
   Serial.print(CMRINodeName);              // Prints Function of Node and App Version
   Serial.print(CMRINodeVersion);           // Node App Version
+  Serial.print(F("Node Number: "));
+  Serial.println(CMRINodeNumber);
   Serial.println(F(">"));
   Serial.println("");
   delay(1000);
